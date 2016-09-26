@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.32
+FROM jenkins:2.19.3
 
 RUN /usr/local/bin/install-plugins.sh git matrix-auth workflow-aggregator docker-workflow blueocean credentials-binding
 
