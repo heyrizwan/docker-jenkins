@@ -1,0 +1,1 @@
+curl -v -X  -H "Content-Type: application/json" --data @body.json post http://localhost:2124/pluginManager/installPlugins

@@ -1,0 +1,1 @@
+#stop all instances of dockerdocker stop $(docker ps -a -q)sleep 20# remove all docker instancesdocker rm $(docker ps -a -q)docker rmi $(docker images -q)
